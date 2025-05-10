@@ -1,0 +1,20 @@
+{
+  "name": "hyswpub",
+  "version": "1.0.0",
+  "description": "Public p2p botnet PoC",
+  "main": "src/client.js",
+  "scripts": {
+    "test": "echo Wasuuup, prob works idk"
+  },
+  "keywords": [
+    "botnet",
+    "p2p",
+    "hyperswarm"
+  ],
+  "author": "Nix",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "hyperswarm": "^4.11.7"
+  }
+}
