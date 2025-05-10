@@ -14,6 +14,11 @@
 > The author **does not condone or support any form of malicious activity**.
 > **You are fully responsible** for how you choose to use this code.
 
+> ⚖️ **Legal Disclaimer**: Dear STF... 
+> This code is provided **"as is"** without any warranties.
+> It is designed strictly for **educational** and **demonstrative** purposes.
+> The author **is not responsible** for any damages or legal consequences resulting from misuse.
+
 
 ## 🧪 Features
 
@@ -36,7 +41,7 @@ npm install
 ### Start a Client Node
 
 ```bash
-node client.js
+node .\src\client.js
 ```
 
 This will:
@@ -48,7 +53,7 @@ This will:
 ### Start a Slave Node
 
 ```bash
-node slave.js
+node .\src\slave.js
 ```
 
 This will:
@@ -56,19 +61,6 @@ This will:
 * Join the slave topic
 * Respond to heartbeats
 * Execute commands received from the client
-
-## ❗ Important Notes
-
-* Commands sent from the client are executed directly on the system of the slave. **Use with caution.**
-* The client prints the number of connected clients and slaves in the terminal title.
-* This project is a **PoC** and lacks robust security features (encryption, authentication, etc.).
-
-
-## 🛡️ Legal Disclaimer
-
-This code is provided **"as is"** without any warranties.
-It is designed strictly for **educational** and **demonstrative** purposes.
-The author **is not responsible** for any damages or legal consequences resulting from misuse.
 
 ---
 
